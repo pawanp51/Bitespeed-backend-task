@@ -26,25 +26,25 @@ POST https://bitespeed-backend-task-2rua.onrender.com/identify
 
 ## API Usage
 Endpoint
-'''
+```
 POST /identify
 Request Body (JSON)
 {
   "email": "string (optional)",
   "phoneNumber": "string (optional)"
 }
-'''
+```
 At least one field must be provided.
 
 Example Request
-'''
+```
 {
   "email": "lorraine@hillvalley.edu",
   "phoneNumber": "123456"
 }
-'''
+```
 Example Response
-'''
+```
 {
   "contact": {
     "primaryContatctId": 1,
@@ -58,7 +58,7 @@ Example Response
     "secondaryContactIds": [2]
   }
 }
-'''
+```
 ## Local Setup
 Clone the repository
 git clone <your-repo-url>
